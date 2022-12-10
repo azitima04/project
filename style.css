@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(126, 9, 9);
+}
+.cite{
+    width: 1400px;
+    margin: 0px auto;
+    background-color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+
+}
+.header>img{
+    width: 60px;
+    height: 60px;
+    margin: 0px 10px 0px 200px;
+}
+a{
+    text-decoration: none;
+}
+.header>a{
+    margin-left: 500px;
+    background-color: rgb(126, 9, 9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.main>h2{
+    color: rgb(126, 9, 9);
+    font-size: 36px;
+}
+.main>p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+.main>.bigger{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    margin-top: -10px;
+}
+
+.normal{
+    margin-top: -10px;
+    width: 450px;
+
+}
+.normal1{
+    margin-top: -10px;
+    width: 420px;
+    margin-left: 15px;
+}
+.normal2{
+    margin-top: -10px;
+    width: 520px;
+}
+.normal3{
+    margin-top: -10px;
+    width: 400px;
+    margin-left: 30px;
+}
+.main>img{
+    width: 100%;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+form>h2{
+    color: rgb(126, 9, 9);
+    font-size: 36px;
+}
+form>a{
+    color: rgb(126, 9, 9);
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid rgb(126, 9, 9);
+}
+.bg{
+    background-color: rgb(126, 9, 9);
+    color: white;
+}
+.footer{
+    display: flex;  
+    align-items: center;
+    justify-content:    space-around ;
+    width: 100%;
+    height: 200px;
+
+}
+.footer>a{
+    color: white;
+    background-color: rgb(126, 9, 9);
+    padding: 18px 36px;
+    border-radius: 5px;
+}
